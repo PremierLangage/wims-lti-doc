@@ -13,7 +13,7 @@
 You can clone the server from github:
 
 ```bash
-git clone https://github.com/PremierLangage/wims-lti-doc.git
+git clone https://github.com/PremierLangage/wims-lti.git
 cd wims-lti
 ```
 
