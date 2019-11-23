@@ -98,6 +98,9 @@ To send the grade of the worksheet / exam from WIMS to the LMS, you only
 need to click on the corresponding LTI activity as a teacher. In other words, WIMS-LTI will send
 the grade of every user who clicked on *activity A* every time a teacher click on *activity A*.
 
+Moreover, the grades of every student who clicked at least once on the activity will also
+be automatically sent to the LMS at least three time a day (default settings).
+
 *Caution :* Only the grade of the **user who clicked at least once** on the link corresponding
 to the worksheet / exam will have their grade sent to the LMS. If an user
 has completed an <font color='blue'>**activity B**</font> using the LTI link of

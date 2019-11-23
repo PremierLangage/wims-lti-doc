@@ -13,4 +13,4 @@
 * To create students corresponding to that course in the *WIMS* class.
 * The students to connect to the *WIMS* server from the *LMS*.
 * The teachers to connect to the *WIMS* class as supervisor or as students.
-* To send the grades of students back to the LMS.
+* To send the grades of students back to the LMS (automatically and manually).
