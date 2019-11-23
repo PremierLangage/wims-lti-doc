@@ -3,7 +3,7 @@
 ## Dependencies
 
 * git
-* Python 3.5+
+* Python 3.6+
 * pip3
 * Apache2 & mod_wsgi
 
