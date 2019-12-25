@@ -32,7 +32,9 @@ and [*SERVER_EMAIL*](https://docs.djangoproject.com/en/2.2/ref/settings/#server-
 * [*DATABASES*](https://docs.djangoproject.com/fr/2.2/ref/settings/#databases) - If 
 you want to use something else than sqlite (see `wimsLTI/settings.py` for the default value).
 * *SEND_GRADE_BACK_CRON_TRIGGER* - If you want to change the default scheduled time every grade
-are sent back to their LMS.
+are sent back to their LMS (default to 7h and 19h).
+* *CHECK_CLASSES_EXISTS_CRON_TRIGGER* - If you want to change the default scheduled time wims-lti
+will check if every registered class still exists on the corresponding WIMS server.
 
 
 Once the parameters are correctly defined, launch the installation script `install.sh`
