@@ -56,8 +56,8 @@ of the settings of the created class and its supervisor:
     * `custom_class_institution` - Name of the Institution (default to the LMS institution)
     * `custom_class_email` - Email of the class (default to the creator's email)
     * `custom_class_lang` - Language of the class (en, fr, es, it, etc - default to the LMS' language).
-    * `custom_class_expiration` - Expiration date (yyyymmdd - default to 11 months).
-    * `custom_class_limit` - Maximum number of participants in the class (from 10 to 500, default to 150).
+    * `custom_class_expiration` - Expiration date (yyyymmdd) - default to the related `WIMS`'s server `Default student limit` field, see [Configuration](https://wims-lti.readthedocs.io/configuration/#wims-lti)).
+    * `custom_class_limit` - Maximum number of participants in the class (from 10 to 500) - default to the related `WIMS`'s server `Default duration` field, see [Configuration](https://wims-lti.readthedocs.io/configuration/#wims-lti)).
     * `custom_class_level` - Level of the class (E1, ..., E6, H1, ..., H6, U1, ..., U5, G, R - default to U1).
     * `custom_class_css` - CSSfile (must exists on the WIMS server).
 
@@ -99,7 +99,7 @@ need to click on the corresponding LTI activity as a teacher. In other words, WI
 the grade of every user who clicked on *activity A* every time a teacher click on *activity A*.
 
 Moreover, the grades of every student who clicked at least once on the activity will also
-be automatically sent to the LMS at least three time a day (default settings).
+be automatically sent to the LMS at two three time a day (default settings).
 
 *Caution :* Only the grade of the **user who clicked at least once** on the link corresponding
 to the worksheet / exam will have their grade sent to the LMS. If an user

@@ -40,7 +40,11 @@ the server (you can create a new one by running `python3 manage.py createsuperus
 
 5. Click `ADD WIMS` in the top left, and fill the form:
     * `Name` : Name to identify the *WIMS* server, ex: `WIMS UPEM`.
-    * `URL` : URL of the *WIMS* server CGI, ex: `https://wims.u-pem.fr/wims/wims.cgi`.
+    * `URL` : URL of the *WIMS* server, ex: `https://wims.u-pem.fr/wims/
+    * `Default student limit` : Default limit of student if `custom_class_limit` is not
+                                provided in the LTI request.
+    * `Default duration` : Default duration before a class' expiration if `custom_class_expiration`
+                                is not provided in the LTI request.
     * `Ident` : Name of the connection file created on the *WIMS* server. 
                 For example, if the file created was `[WIMS_HOME]/log/classes/.connections/myself`,
                 enter `myself`.
