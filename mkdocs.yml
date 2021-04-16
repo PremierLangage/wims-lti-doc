@@ -8,6 +8,7 @@ nav:
   - Configuration: configuration.md
   - Usage: usage.md
   - Example: activity_creation_example.md
+  - Testing: testing.md
   - License: LICENSE.md
   - Github: https://github.com/PremierLangage/wims-lti/
 
